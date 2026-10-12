@@ -1,0 +1,25 @@
+{
+  "category": "kinetic-type",
+  "duration_s": 10,
+  "fps": 30,
+  "canvas": { "w": 1920, "h": 1080, "aspect": "16:9" },
+  "style": "Editorial dual-font type on deep ink: Inter for the voice, Playfair Display italic for the emphasis word. Calm, confident, left-anchored.",
+  "palette": ["#0e0d12", "#f5f0d0", "#8f8a78", "#e8b04b"],
+  "font": "Inter + Playfair Display Italic (local woff2)",
+  "beats": [0.6, 3.0, 5.3, 8.6],
+  "export": "mp4",
+  "asset_needs": [],
+  "block": null,
+  "customize": {
+    "note": "caption-editorial-emphasis was evaluated; its transcript-driven word flashes are too fast for a product intro, so its type system (Inter + Playfair italic emphasis) is reused and the motion is hand-authored."
+  },
+  "content": {
+    "source": "https://example.com public copy (live capture blocked by the environment's network policy)",
+    "scenes": [
+      { "id": "hook", "start": 0, "end": 2.6, "text": "Introducing Example Domain", "emphasis_words": ["Domain"], "emotion": "confident", "motion": "label tracks in, words scale up, emphasis slides from left (expo.out)", "beats": [0.6] },
+      { "id": "build", "start": 2.6, "end": 5.1, "text": "Built for documentation.", "emphasis_words": ["documentation."], "emotion": "clear", "motion": "enters from the right, rule draws down, RFC 2606 label", "beats": [3.0] },
+      { "id": "punch", "start": 5.1, "end": 7.5, "text": "No permission needed.", "emphasis_words": ["needed."], "emotion": "punchy", "motion": "hard cut, emphasis slams in with back.out, accent color", "beats": [5.3] },
+      { "id": "resolve", "start": 7.5, "end": 10, "text": "example.com — for use in documentation examples", "emphasis_words": ["example.com"], "emotion": "settled", "motion": "URL bar types the address, lockup rises, underline sweeps, hold", "beats": [8.6] }
+    ]
+  }
+}
